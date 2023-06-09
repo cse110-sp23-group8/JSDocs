@@ -42,7 +42,17 @@ class gameObject {
       sugars: 0,
       sodium: 0,
     };
+
+    /**
+    * The fortune object that contanins different types of fortune tellings
+    * @type {Object}
+    */
     this.fortunes = {
+
+      /**
+      * The "romantic" type of fortune tellings
+      * @type {Array.<string>}
+      */
       romantic: [
         "You and your partner will embark on a dreamy getaway together.",
         "A secret admirer will reveal their feelings for you.",
@@ -75,6 +85,11 @@ class gameObject {
         "You will be surrounded by love and affection from those closest to you.",
         "You and your partner will embark on a romantic adventure together.",
       ],
+
+      /**
+      * The "good" type of fortune tellings
+      * @type {Array.<string>}
+      */
       good: [
         "Do not be afraid of competition.",
         "An exciting opportunity lies ahead of you.",
@@ -129,6 +144,11 @@ class gameObject {
         "Dont worry about money. The best things in life are free.",
         "Dont pursue happiness, create it.",
       ],
+
+      /**
+      * The "neutral" type of fortune tellings
+      * @type {Array.<string>}
+      */
       neutral: [
         "You will have a normal day.",
         "You will eat something today.",
@@ -164,6 +184,11 @@ class gameObject {
         "You will overcome challenges with resilience and strength.",
         "A new friendship will blossom.",
       ],
+
+      /**
+      * The "bad" type of fortune tellings
+      * @type {Array.<string>}
+      */
       bad: [
         "You will be bitten by a squirrel.",
         "You will face a great challenge that you are not prepared for.",
@@ -201,6 +226,11 @@ class gameObject {
         "Regret will haunt your next decision.",
         "Misfortune will follow you wherever you go.",
       ],
+
+      /**
+      * The "weird" type of fortune tellings
+      * @type {Array.<string>}
+      */
       weird: [
         "Help! I am being held prisoner in a fortune cookie factory",
         "Opps... Wrong cookie.",
